@@ -32,7 +32,7 @@ def Internet():
 A = raw_input(" ")
 
 if A == "m":
-	os.system("vlc /yourPath 2> /dev/null & ")		# cvlc ohne Benutzerobefläche;
+	os.system("vlc https://github.com/redRosesCode/Shortcuts/blob/master/Musik.mp3 2> /dev/null & ")		# cvlc ohne Benutzerobefläche;
 	 																		# & für weitere Nutzung Terminal
 if A == "h":
 	Hilfe()
