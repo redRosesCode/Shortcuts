@@ -32,8 +32,8 @@ def Internet():
 A = raw_input(" ")
 
 if A == "m":
-	os.system("vlc https://raw.githubusercontent.com/redRosesCode/Shortcuts/master/Musik.mp3 2> /dev/null & ")		# cvlc ohne Benutzerobefläche;
-	 																		# & für weitere Nutzung Terminal
+	os.system("vlc https://raw.githubusercontent.com/redRosesCode/Shortcuts/master/Musik.mp3 2> /dev/null & ")	# cvlc ohne Benutzerobefläche;
+	 														# & für weitere Nutzung Terminal
 if A == "h":
 	Hilfe()
 
